@@ -1,0 +1,27 @@
+{
+  "name": "comparedom",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cucumber-html-reporter": "^4.0.2",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jest": "^23.1.0",
+    "jest-report": "^0.1.11",
+    "morgan": "~1.9.0",
+    "nightmare": "^3.0.1"
+  },
+  "devDependencies": {
+    "jest-html-reporter": "^2.4.0",
+    "jest-reporter": "^1.0.1"
+  },
+  "jest": {
+    "testResultsProcessor": "jest-report"
+  }
+}
